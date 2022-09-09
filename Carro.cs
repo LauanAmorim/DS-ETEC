@@ -29,7 +29,6 @@ namespace veiculo_aplicacao
             this.Placa = placa;
             this.Cor = cor;
             this.Chassi = chassi;
-            this.Marca = marca;
             this.Portas = portas;
             this.CapacidadeBagagem = capacidadeBagagem;
             this.CategoriaCarro = categoriaCarro;
@@ -52,5 +51,12 @@ namespace veiculo_aplicacao
             get { return this.categoriaCarro; }
             set { this.categoriaCarro = value; }
         }
+
+        public override String RegistrarVeiculo()
+        {
+            String s = String.Empty;
+            s = ($"{this.Marca}, {this.Modelo}, {this.Preco}, {this.Combustivel}, {this.Placa}, {this.Cor}, {this.Chassi}, {this.Portas}, {this.CapacidadeBagagem}, {this.CategoriaCarro}").ToString();
+        }
+
     }
 }

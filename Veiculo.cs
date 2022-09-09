@@ -78,5 +78,10 @@ namespace veiculo_aplicacao
             set { this.chassi = value; }
         }
 
+
+        public abstract String RegistrarVeiculo();
+        public abstract String VenderVeiculo();
+        public abstract String ExcluirVeiculo();
+
     }
 }
