@@ -80,8 +80,8 @@ namespace veiculo_aplicacao
 
 
         public abstract String RegistrarVeiculo();
-        public abstract String VenderVeiculo();
-        public abstract String ExcluirVeiculo();
+        // public abstract String VenderVeiculo();
+        // public abstract String ExcluirVeiculo();
 
     }
 }

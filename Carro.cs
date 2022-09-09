@@ -55,7 +55,8 @@ namespace veiculo_aplicacao
         public override String RegistrarVeiculo()
         {
             String s = String.Empty;
-            s = ($"{this.Marca}, {this.Modelo}, {this.Preco}, {this.Combustivel}, {this.Placa}, {this.Cor}, {this.Chassi}, {this.Portas}, {this.CapacidadeBagagem}, {this.CategoriaCarro}").ToString();
+            s = ($"Marca: {this.Marca}, Modelo: {this.Modelo}, Preço: {this.Preco}, Combustível: {this.Combustivel}, Placa: {this.Placa}, Cor: {this.Cor}, Chassi: {this.Chassi}, Portas: {this.Portas}, Capacidade Bagagem: {this.CapacidadeBagagem}, Categoria: {this.CategoriaCarro}").ToString();
+            return s;
         }
 
     }

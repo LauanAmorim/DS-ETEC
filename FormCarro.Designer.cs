@@ -53,6 +53,7 @@
             this.txtCapacidadeBagagem = new System.Windows.Forms.TextBox();
             this.lblCategoria = new System.Windows.Forms.Label();
             this.txtCategoria = new System.Windows.Forms.TextBox();
+            this.btnExibir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnVoltar
@@ -123,6 +124,7 @@
             this.btnRegistrar.TabIndex = 14;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // btnVender
             // 
@@ -267,11 +269,23 @@
             this.txtCategoria.Size = new System.Drawing.Size(127, 20);
             this.txtCategoria.TabIndex = 27;
             // 
+            // btnExibir
+            // 
+            this.btnExibir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExibir.Location = new System.Drawing.Point(55, 216);
+            this.btnExibir.Name = "btnExibir";
+            this.btnExibir.Size = new System.Drawing.Size(127, 27);
+            this.btnExibir.TabIndex = 29;
+            this.btnExibir.Text = "Exibir";
+            this.btnExibir.UseVisualStyleBackColor = true;
+            this.btnExibir.Click += new System.EventHandler(this.btnExibir_Click);
+            // 
             // FormCarro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(808, 450);
+            this.Controls.Add(this.btnExibir);
             this.Controls.Add(this.lblCategoria);
             this.Controls.Add(this.txtCategoria);
             this.Controls.Add(this.lblPortas);
@@ -300,6 +314,7 @@
             this.Name = "FormCarro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CadastrarCarro";
+            this.Load += new System.EventHandler(this.FormCarro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -332,5 +347,6 @@
         private System.Windows.Forms.TextBox txtCapacidadeBagagem;
         private System.Windows.Forms.Label lblCategoria;
         private System.Windows.Forms.TextBox txtCategoria;
+        private System.Windows.Forms.Button btnExibir;
     }
 }
