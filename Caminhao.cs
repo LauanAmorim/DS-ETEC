@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace veiculo_aplicacao
 {
-    public abstract class Caminhao : Veiculo
+    public partial class Caminhao : Veiculo
     {
         private string tipoCarga;
         private double capacidadeCarga;
@@ -56,13 +56,13 @@ namespace veiculo_aplicacao
 
         public int Eixo
         {
-            get { return this.Eixo; }
-            set { this.Eixo = value; }
+            get { return this.eixo; }
+            set { this.eixo = value; }
         }
         public override String RegistrarVeiculo()
         {
             String s = String.Empty;
-            s = ($"Marca: {this.Marca},\r\n Modelo: {this.Modelo},\r\n Preço: {this.Preco},\r\n Combustível: {this.Combustivel},\r\n Placa: {this.Placa},\r\n Cor: {this.Cor},\r\n Chassi: {this.Chassi}, \r\n Portas: {this.TipoCarga}, \r\n Capacidade Bagagem: {this.CapacidadeCarga}, \r\n Categoria: {this.TipoCabine}, \r\n {this.Eixo}").ToString();
+            s = ($"Marca: {this.Marca},\r\n Modelo: {this.Modelo},\r\n Preço: {this.Preco},\r\n Combustível: {this.Combustivel},\r\n Placa: {this.Placa},\r\n Cor: {this.Cor},\r\n Chassi: {this.Chassi}, \r\n Tipo de Carga: {this.TipoCarga}, \r\n Capacidade Bagagem: {this.CapacidadeCarga}T, \r\n Tipo de Cabine: {this.TipoCabine}, \r\n Eixo: {this.Eixo}").ToString();
             return s;
         }
     }

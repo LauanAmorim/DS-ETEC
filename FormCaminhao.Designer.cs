@@ -76,6 +76,7 @@
             this.btnExibir.TabIndex = 54;
             this.btnExibir.Text = "Exibir";
             this.btnExibir.UseVisualStyleBackColor = true;
+            this.btnExibir.Click += new System.EventHandler(this.btnExibir_Click_1);
             // 
             // lblTipoCabine
             // 
@@ -318,6 +319,7 @@
             this.Controls.Add(this.txtCapacidadeCarga);
             this.Controls.Add(this.txtMarca);
             this.Controls.Add(this.btnVoltar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormCaminhao";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CadastrarCaminhao";

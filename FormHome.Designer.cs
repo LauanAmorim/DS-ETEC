@@ -71,6 +71,7 @@
             this.Controls.Add(this.btnCadastrarCaminhao);
             this.Controls.Add(this.btnCadastrarCarro);
             this.Controls.Add(this.btnSair);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormHome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

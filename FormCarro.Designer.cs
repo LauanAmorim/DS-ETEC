@@ -299,6 +299,7 @@
             this.Controls.Add(this.txtCapacidadeBagagem);
             this.Controls.Add(this.txtMarca);
             this.Controls.Add(this.btnVoltar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormCarro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CadastrarCarro";

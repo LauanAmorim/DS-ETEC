@@ -27,7 +27,7 @@ namespace veiculo_aplicacao
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            caminhao = new Caminhao(txtMarca.Text);
+            caminhao = new Caminhao(txtMarca.Text, txtModelo.Text, (Convert.ToDouble(txtPreco.Text)), txtCombustivel.Text, txtPlaca.Text, txtCor.Text, (Convert.ToInt32(txtChassi.Text)), txtTipoCarga.Text, (Convert.ToDouble(txtCapacidadeCarga.Text)), txtTipoCabine.Text, (Convert.ToInt32(txtEixo.Text)));
             txtMarca.Clear();
             txtModelo.Clear();
             txtPreco.Clear();
@@ -41,15 +41,9 @@ namespace veiculo_aplicacao
             txtEixo.Clear();
         }
 
-        private void FormCarro_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnExibir_Click(object sender, EventArgs e)
+        private void btnExibir_Click_1(object sender, EventArgs e)
         {
             MessageBox.Show(caminhao.RegistrarVeiculo());
         }
-    }
     }
 }
