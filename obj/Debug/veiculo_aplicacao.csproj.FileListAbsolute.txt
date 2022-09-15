@@ -24,3 +24,16 @@ C:\Users\2etimds\Documents\veiculo_aplicacao\veiculo_aplicacao\obj\Debug\veiculo
 C:\Users\2etimds\Documents\veiculo_aplicacao\veiculo_aplicacao\obj\Debug\veiculo_aplicacao.csproj.CoreCompileInputs.cache
 C:\Users\2etimds\Documents\veiculo_aplicacao\veiculo_aplicacao\obj\Debug\veiculo_aplicacao.exe
 C:\Users\2etimds\Documents\veiculo_aplicacao\veiculo_aplicacao\obj\Debug\veiculo_aplicacao.pdb
+C:\Users\2etimds\Source\Repos\DS-ETEC\bin\Debug\veiculo_aplicacao.exe.config
+C:\Users\2etimds\Source\Repos\DS-ETEC\bin\Debug\veiculo_aplicacao.exe
+C:\Users\2etimds\Source\Repos\DS-ETEC\bin\Debug\veiculo_aplicacao.pdb
+C:\Users\2etimds\Source\Repos\DS-ETEC\obj\Debug\veiculo_aplicacao.csproj.AssemblyReference.cache
+C:\Users\2etimds\Source\Repos\DS-ETEC\obj\Debug\veiculo_aplicacao.csproj.SuggestedBindingRedirects.cache
+C:\Users\2etimds\Source\Repos\DS-ETEC\obj\Debug\veiculo_aplicacao.FormCaminhao.resources
+C:\Users\2etimds\Source\Repos\DS-ETEC\obj\Debug\veiculo_aplicacao.FormCarro.resources
+C:\Users\2etimds\Source\Repos\DS-ETEC\obj\Debug\veiculo_aplicacao.FormHome.resources
+C:\Users\2etimds\Source\Repos\DS-ETEC\obj\Debug\veiculo_aplicacao.Properties.Resources.resources
+C:\Users\2etimds\Source\Repos\DS-ETEC\obj\Debug\veiculo_aplicacao.csproj.GenerateResource.cache
+C:\Users\2etimds\Source\Repos\DS-ETEC\obj\Debug\veiculo_aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\2etimds\Source\Repos\DS-ETEC\obj\Debug\veiculo_aplicacao.exe
+C:\Users\2etimds\Source\Repos\DS-ETEC\obj\Debug\veiculo_aplicacao.pdb

@@ -38,7 +38,6 @@
             this.txtCor = new System.Windows.Forms.TextBox();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.btnVender = new System.Windows.Forms.Button();
-            this.btnAtualizar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.lblMarca = new System.Windows.Forms.Label();
             this.lblModelo = new System.Windows.Forms.Label();
@@ -118,7 +117,7 @@
             // btnRegistrar
             // 
             this.btnRegistrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRegistrar.Location = new System.Drawing.Point(215, 183);
+            this.btnRegistrar.Location = new System.Drawing.Point(215, 216);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(127, 27);
             this.btnRegistrar.TabIndex = 14;
@@ -135,16 +134,6 @@
             this.btnVender.TabIndex = 15;
             this.btnVender.Text = "Vender";
             this.btnVender.UseVisualStyleBackColor = true;
-            // 
-            // btnAtualizar
-            // 
-            this.btnAtualizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAtualizar.Location = new System.Drawing.Point(215, 216);
-            this.btnAtualizar.Name = "btnAtualizar";
-            this.btnAtualizar.Size = new System.Drawing.Size(127, 27);
-            this.btnAtualizar.TabIndex = 16;
-            this.btnAtualizar.Text = "Atualizar";
-            this.btnAtualizar.UseVisualStyleBackColor = true;
             // 
             // btnExcluir
             // 
@@ -298,7 +287,6 @@
             this.Controls.Add(this.lblModelo);
             this.Controls.Add(this.lblMarca);
             this.Controls.Add(this.btnExcluir);
-            this.Controls.Add(this.btnAtualizar);
             this.Controls.Add(this.btnVender);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.txtCor);
@@ -332,7 +320,6 @@
         private System.Windows.Forms.TextBox txtCor;
         private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.Button btnVender;
-        private System.Windows.Forms.Button btnAtualizar;
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Label lblMarca;
         private System.Windows.Forms.Label lblModelo;

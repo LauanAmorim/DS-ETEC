@@ -59,5 +59,11 @@ namespace veiculo_aplicacao
             get { return this.Eixo; }
             set { this.Eixo = value; }
         }
+        public override String RegistrarVeiculo()
+        {
+            String s = String.Empty;
+            s = ($"Marca: {this.Marca},\r\n Modelo: {this.Modelo},\r\n Preço: {this.Preco},\r\n Combustível: {this.Combustivel},\r\n Placa: {this.Placa},\r\n Cor: {this.Cor},\r\n Chassi: {this.Chassi}, \r\n Portas: {this.TipoCarga}, \r\n Capacidade Bagagem: {this.CapacidadeCarga}, \r\n Categoria: {this.TipoCabine}, \r\n {this.Eixo}").ToString();
+            return s;
+        }
     }
 }
